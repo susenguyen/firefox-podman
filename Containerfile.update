@@ -1,0 +1,4 @@
+FROM registry.opensuse.org/opensuse/tumbleweed:latest
+RUN ["/usr/bin/zypper", "dup", "-y"]
+#CMD 
+#ENTRYPOINT ["/usr/bin/bash"]
